@@ -1,5 +1,5 @@
 {
-  "name": "the majesty of vue",
+  "name": "the-majesty-of-vue",
   "version": "1.0.0",
   "description": "the majesty of vuejs 2",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/PlanB007/Vue/issues"
   },
-  "homepage": "https://github.com/PlanB007/Vue#readme"
+  "homepage": "https://github.com/PlanB007/Vue#readme",
+  "devDependencies": {
+    "vue": "^2.3.4"
+  }
 }
