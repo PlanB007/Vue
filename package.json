@@ -1,0 +1,22 @@
+{
+  "name": "the majesty of vue",
+  "version": "1.0.0",
+  "description": "the majesty of vuejs 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlanB007/Vue.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Kevin Rouwkema",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlanB007/Vue/issues"
+  },
+  "homepage": "https://github.com/PlanB007/Vue#readme"
+}
