@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello Vue</title>
+
+  <style type="text/css">
+    body{
+      background-color: #E8E8E8;
+      text-align: center;
+    }
+
+    h1,h2,h3 {
+      text-transform: uppercase;
+      color: #E57224;
+    }
+
+    p {
+      margin-bottom: 0px;
+      color:#2D2D2D;
+    }
+
+    pre {
+      text-align: left;
+    }
+
+    input {
+      margin-top: 0;
+      border-color: #E57224;
+      border-style: solid;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div v-if="gender == 'male' || gender == 'female'">
+      <h1> Hello,
+      <span v-if="gender == 'male'">Mister {{name}}</span>
+      <span v-else="gender == 'female'">Miss {{name}}</span>
+      </h1>
+    </div>
+    <h1 v-else> So you can't decide. Fine!</h2>
+    <p>Enter your gender</p>
+    <textarea v-model="gender"></textarea>
+    <p>Enter your name</p>
+    <textarea v-model="name"></textarea>
+    <pre>
+      {{ $data }}
+    </pre>
+  </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.js"></script>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      gender: 'female',
+      name: ''
+    }
+  })
+</script>
+</html>
